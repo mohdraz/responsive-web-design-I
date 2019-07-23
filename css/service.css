@@ -1,0 +1,45 @@
+.service-header {
+    display: block;
+}
+
+.services-header-img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.service-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+
+    border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.service-content-box {
+	border: 1px solid black;
+    background: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.service-content-box button {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 20px; 
+	text-align: center;
+}
+
+.service-content-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+

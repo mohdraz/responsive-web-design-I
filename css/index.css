@@ -1,3 +1,139 @@
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10px;
+    width: 80%;
+    margin: 1% auto;
+    border: 1px solid lightblue;
+    box-shadow: 20px 50px 50px lightgray;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 2rem;
+	/* line-height: 1rem; */
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 14px;
+	margin: 10px auto;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul li {
+	font-size: 15px;
+	padding: 5px;
+}
+
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+header#top-header {
 
+	/* flex box properties */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	 /* end of flexbox properties */  
+
+	background-color: #285D2F;
+	padding: 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+header#top-header nav {
+	display: flex;
+    justify-content: space-evenly;
+	width: 70%; 
+}
+
+header#top-header nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+header#top-header nav a:hover {
+	background: red;
+	padding: 5px 15px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+main {
+    padding: 30px 50px 30px 50px;
+}
+
+.main-header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 20px 0px 0px 20px;
+}
+
+.main-header h1 {
+	font-size: 80px;
+}
+
+.main-header button {
+	font-size: 25px;
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid black;
+
+}
+
+.top-content {
+    display: inline-block;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+
+.top-content section {
+    width: 49%;
+    display: inline-block;
+    padding: 50px 0px;
+}
+
+main .middle-img {
+    width: 100%;
+}
+
+.bottom-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+footer {
+	border-top: 1px dashed lightblue;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,38 @@
+header.product-header {
+    text-align: center;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.product-box {
+    border: 1px solid green;
+    padding: 1%;
+    text-align: center;
+}
+
+.product-box h3 {
+    font-size: 18px;
+}
+
+.footer-contact {
+    display: block;
+    text-align: center;
+}
+
+.footer-address {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.address-box {
+    width: 20%;
+    text-align: left;
+    /* border: 1px solid red; */
+    padding-left: 5%;
+    color: blue;
+}
