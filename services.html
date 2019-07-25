@@ -3,13 +3,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Great Idea! - Services</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/service.css">
+  <link rel="stylesheet" href="css/media-800.css">
+  <link rel="stylesheet" href="css/media-500.css">
+
+  <script src="https://kit.fontawesome.com/be7a85e91c.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -18,15 +22,19 @@
 
 <body>
     <header id="top-header">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="product.html">Product</a>
-        <a href="features.html">Features</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+      <a class="toggle open" href="#nav"><i class="fas fa-bars"></i></a>
+      <nav id="nav">
+        <a class="toggle close" href="#"><i class="fas fa-times"></i></a>
+        <ul class="nav-list">
+          <li class="list-item"><a href="index.html">Home</a></li>
+          <li class="list-item"><a href="services.html">Services</a></li>
+          <li class="list-item"><a href="product.html">Product</a></li>
+          <li class="list-item"><a href="#">About</a></li>
+          <li class="list-item"><a href="features.html">Features</a></li>
+          <li class="list-item"><a href="#">Contact</a></li>
+        </ul>
       </nav>
-      <a href="index.html"> <img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
+      <a class="logo" href="index.html"> <img src="img/logo.png" alt="Great Idea! Company logo."></a>
     </header> 
 
 <main>

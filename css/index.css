@@ -61,17 +61,26 @@ header#top-header {
 	z-index: 1;
     font-family: 'Mountains of Christmas', cursive;
 }
-
-header#top-header nav {
-	display: flex;
-    justify-content: space-evenly;
-	width: 70%; 
+.toggle {
+	display: none;
 }
 
-header#top-header nav a {
+header#top-header .nav-list {
+	
+	width: 80%; 
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header#top-header .list-item {
+	padding: 0 20px;
+}
+
+header#top-header .list-item a {
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Indie Flower', cursive;
 }
@@ -108,7 +117,7 @@ main {
 }
 
 .top-content {
-    display: inline-block;
+    /* display: inline-block; */
     border-top: 1px solid black;
     margin-top: 50px;
 }
