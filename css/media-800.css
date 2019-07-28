@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    header#top-header {
+        flex-direction: column;
+        background-color: inherit;
+        position: inherit;
+        padding: 10px 0;
+
+    }
+
+    .logo {
+        order: -1;
+    }
+
+    header#top-header nav {
+        background-color: #285D2F;
+        width: 100%;
+    }
+    header#top-header .nav-list {
+        width: 100%;
+    }
+
+    .main-header img{
+        display: none;
+    }
+
+    /* Service Page */
+
+    .service-header {
+        text-align: center;
+    }
+    .service-header img {
+        display: none;
+    }
+
+    .service-content-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-content-bottom h2 {
+        text-align: center;
+    }
+
+    .services-info-img {
+        width: 100%;
+    }
+}
